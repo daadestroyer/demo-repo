@@ -1,0 +1,46 @@
+287  git --version 
+  288  clear
+  289  git clone https://github.com/daadestroyer/demo-repo.git
+  290  cd demo-repo/
+  291  ls
+  292  ls -al
+  293  cat READme.md 
+  294  nano READme.md 
+  295  git sta
+  296  git status
+  297  git add READme.md 
+  298  git status 
+  299  nano index.html
+  300  git status
+  301  git add READme.md 
+  302  git add index.html 
+  303  git commit -m "added index.html and updated READme.md with addition header"
+  304  git status
+  305  git push
+  306  ssh-keygen
+  307  ssh-keygen -t ed25519 -C "nigamshubham2000@gmail.com"
+  308  cat /home/daadestroyer/.ssh/id_ed25519.pub
+  309  eval "$(ssh-agent -s)"
+  310  ssh-add ~/.ssh/id_ed25519
+  311  sudo apt-get install xclip
+  312  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+  313  clear
+  314  cd --
+  315  git clone git@github.com:daadestroyer/demo-repo.git
+  316  rm -rf demo-repo/
+  317  git clone git@github.com:daadestroyer/demo-repo.git
+  318  cd demo-repo/
+  319  git status
+  320  nano index.html
+  321  git add index.html 
+  322  git status
+  323  git commit -m "updated index.html using ssh key"
+  324  git push
+  
+  
+  
+  
+  How to generate SSH key to commit and push into repo without using username and password
+  -----------------------------------------------------------------------------------------
+  Link : https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-
+         agent#adding-your-ssh-key-to-the-ssh-agent
