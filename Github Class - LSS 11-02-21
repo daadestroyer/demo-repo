@@ -1,4 +1,7 @@
-287  git --version 
+  ## Prerequisite 
+  ### Git should be installed and your username and password must be configured 
+  ### 
+  287  git --version 
   288  clear
   289  git clone https://github.com/daadestroyer/demo-repo.git
   290  cd demo-repo/
